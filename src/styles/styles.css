@@ -12,7 +12,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: linear-gradient(#2a0287, #180885);
+  background: linear-gradient(#344ac4, #4b7fd3);
 }
 
 #container {
@@ -50,18 +50,18 @@ body {
   font-size: 1.2rem;
 }
 
-#wheather {
+#weather {
   display: none;
   margin-top: 1.2rem;
 }
 
-#wheather.show {
+#weather.show {
   display: block;
 }
 
-#wheather #title {
+#weather #title {
   text-align: center;
-  margin-bottom: 5px;
+  margin-bottom: 1rem;
   font-weight: 600;
   color: #372f3f;
 }
@@ -75,9 +75,8 @@ body {
   color: #fff;
   padding: 20px;
   background: linear-gradient(90deg, #3880d3, #1b5cc4);
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
-    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
-    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
 #temp_img {
@@ -96,7 +95,7 @@ body {
 }
 
 #other_infos {
-  margin-top: 30px;
+  margin-top: 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 12px;
@@ -125,18 +124,34 @@ body {
   width: 20%;
 }
 
-#temp_max_icon{
-    color: #7f1d1d;
+#temp_max_icon {
+  color: #7f1d1d;
 }
 
-#temp_min_icon{
-    color: #0da5dc;
+#temp_min_icon {
+  color: #0da5dc;
 }
 
-#humidity_icon{
-    color: #0f71c7;
+#humidity_icon {
+  color: #0f71c7;
 }
 
-#wind_icon{
-    color: #7c3aed;
+#wind_icon {
+  color: #7c3aed;
+}
+
+.alert_info {
+  margin-top: 1rem;
+  display: none; 
+  flex-direction: column;
+  align-items: center;
+}
+
+.alert_info img {
+  width: 200px;
+  margin-top: 20px;
+}
+
+.alert_info.show {
+  display: flex;
 }
