@@ -6,7 +6,7 @@
 Este é um aplicativo simples de Previsão do Tempo que permite buscar informações meteorológicas para qualquer cidade. Ele utiliza a API do OpenWeatherMap para exibir dados como temperatura atual, máxima, mínima, umidade e velocidade do vento.
 
 <div align= "center">
-<img width="500" height="300" alt="API Funcionando" src="https://github.com/user-attachments/assets/fdf28d06-f787-4325-882d-9850f661c27b" />
+<img width="500" height="400" alt="API Funcionando" src="https://github.com/user-attachments/assets/fdf28d06-f787-4325-882d-9850f661c27b" />
 
 </div>
 
@@ -52,7 +52,7 @@ Para configurar e rodar este projeto em seu ambiente de desenvolvimento local, s
 4.  **Execute a Aplicação:**
     Após clonar o repositório e configurar sua API Key, basta abrir o arquivo `index.html` diretamente em seu navegador web preferido. Não é necessário um servidor web para esta aplicação simples.
 
-## ☁️  Como Usar
+## 🎮 Como Usar
 
 1.  **Abra a Aplicação:** Navegue até o arquivo `index.html` em seu navegador web.
 2.  **Digite o Nome da Cidade:** No campo de busca, digite o nome da cidade para a qual deseja verificar a previsão do tempo.
