@@ -6,7 +6,7 @@
 Este é um aplicativo simples de Previsão do Tempo que permite buscar informações meteorológicas para qualquer cidade. Ele utiliza a API do OpenWeatherMap para exibir dados como temperatura atual, máxima, mínima, umidade e velocidade do vento.
 
 <div align= "center">
-<img width="700" height="600" alt="API Funcionando" src="https://github.com/user-attachments/assets/5e27305b-9c43-41e3-9a27-e56443829168" />
+<img width="500" height="300" alt="API Funcionando" src="https://github.com/user-attachments/assets/fdf28d06-f787-4325-882d-9850f661c27b" />
 
 </div>
 
